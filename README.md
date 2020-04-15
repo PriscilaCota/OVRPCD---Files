@@ -49,6 +49,19 @@ Following we report computational results of each instance in a table with Lower
 
 Results: [TableResults.xlsx](https://drive.google.com/drive/folders/1IODqCf-8atw1c435AIblrGo4kaT7IJOx?usp=sharing) 
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Contact information
+
+Priscila Mara Cota - priscila.maracota@gmail.com
+
+Thiago Henrique Nogueira - thiagoh.nogueira@ufv.br
+
+Angel A. Juan - ajuanp@gmail.com
+
+Martin Gómez Ravetti - martin.ravetti@dep.ufmg.br
+
+
 
 
 
