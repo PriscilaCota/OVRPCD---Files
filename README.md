@@ -20,11 +20,12 @@ Download algorithm PIFHA: [MainCDTSP.sa1](https://drive.google.com/drive/folders
 
 ### Instances
 
-Instances were generated in three scenario: Balanced; Scenario with a stressed vehicle routing problem; and Scenario with a stressed scheduling problem. For each scenario, we generate four subdivisions (Divided into small, medium and large scale) with $11$ instances each, totalizing $132$ instances. 
+Instances were generated in three scenario: Balanced; Scenario with a stressed vehicle routing problem; and Scenario with a stressed scheduling problem. For each scenario, we generate four subdivisions (Divided into small, medium and large scale) with 11 instances each, totalizing 132 instances. 
 
 For a better understanding of the scenarios, see the article. For understanding and using the instances, first consult the example file. It contains the description of each item of the test instances.
 
-Example:[Exemplo.dat] (https://drive.google.com/drive/folders/1mv2PGR33RRFrgTU7gMtc4m1loXaHql_Q?usp=sharing)
+Example:[Exemplo.dat](https://drive.google.com/drive/folders/1mv2PGR33RRFrgTU7gMtc4m1loXaHql_Q?usp=sharing)
+
 
 |Scenario|subdivision|File |
 |:-------------:|:-------------:|:-------------:|
@@ -47,3 +48,7 @@ Example:[Exemplo.dat] (https://drive.google.com/drive/folders/1mv2PGR33RRFrgTU7g
 Following we report computational results of each instance in a table with Lower Bound, PIFHA, CDHA, and LH respectively.
 
 Results: [TableResults.xlsx](https://drive.google.com/drive/folders/1IODqCf-8atw1c435AIblrGo4kaT7IJOx?usp=sharing) 
+
+
+
+
