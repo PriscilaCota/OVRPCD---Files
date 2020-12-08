@@ -8,7 +8,7 @@ In this repository, you will find the codes, instances and results used in the a
 
 The programming language used is C++ with the optimization software CPLEX 12.4. 
 
-### Constructive Heuristics (PIFHA and CDHA), and Lagrangian Heuristic (LH):
+### Constructive Heuristics (PIFHA and CDHA), and Lagrangian Heuristic (LH) - without uncertainty:
 
 The Lagrangean heuristic(LH) uses the constructive heuristics PIFHA and CDHA. Thus, to obtain the result of all three proposed heuristics, it is only necessary to execute the MainHF.run, the other two files are called by the main file and must be in the same execution folder.
 
@@ -18,7 +18,7 @@ Download algorithm CDHA: [MainCDTSPR.sa1](https://drive.google.com/drive/folders
 
 Download algorithm PIFHA: [MainCDTSP.sa1](https://drive.google.com/drive/folders/1Sx6HECJwkWzPvEHHu6Cs20dYMEFGjI7L?usp=sharing) 
 
-### Instances
+### Instances - without uncertainty
 
 Instances were generated in three scenario: Balanced; Scenario with a stressed vehicle routing problem; and Scenario with a stressed scheduling problem. For each scenario, we generate four subdivisions (Divided into small, medium and large scale) with 11 instances each, totalizing 132 instances. 
 
@@ -49,7 +49,50 @@ Following we report computational results of each instance in a table with Lower
 
 Results: [TableResults.xlsx](https://drive.google.com/drive/folders/1IODqCf-8atw1c435AIblrGo4kaT7IJOx?usp=sharing) 
 
-----------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### Framework Robust Dynamic Lagrangian Heuristic (DLH) - under uncertainty:
+
+Incorporate uncertainties into this OVRPCD to use Lagrangian heuristics (LH) to achieve more applicable results to real cross-docking centers. Uncertainties are included in the trucks' arrival time at the CDC and in the travel time to go to the customer. It is only necessary to execute the MainHF-Dinamic.run, the other three files are called by the main file and must be in the same execution folder.
+
+
+Download algorithm DLH: [MainHF-Dinamic.run](https://drive.google.com/file/d/1puIzlRnPogVetTnm0uPvwIKMjtjgG4QW/view?usp=sharing) 
+
+Download algorithm LH: [MainLag-Dinamic.sa1](https://drive.google.com/file/d/1axM4mjDbYj9HIg-4X5T18gP1uu1rMJLu/view?usp=sharing) 
+
+Download algorithm CDHA: [MainCDTSPR-Dinamic.sa1](https://drive.google.com/file/d/1n96UqxRndLefWzw-_SLMs_Nk0S-kp5sT/view?usp=sharing) 
+
+Download algorithm PIFHA: [MainCDTSP-Dinamic.sa1](https://drive.google.com/file/d/1pniQvNPVg7eRo5hf0bNxnyht3q7Oxga_/view?usp=sharing) 
+
+
+### Instances - under uncertainty
+
+Instances were generated in three scenario: Balanced; Scenario with a stressed vehicle routing problem; and Scenario with a stressed scheduling problem. For each scenario, we generate four subdivisions (Divided into small, medium and large scale) with 11 instances each, totalizing 132 instances. 
+
+For a better understanding of the scenarios, see the article. For understanding and using the instances, first consult the example file. It contains the description of each item of the test instances.
+
+Example:[Exemplo-Dynamic.dat](https://drive.google.com/file/d/1cUjnJgVHK6ucev5I_he3j_CXe9Lkz5n0/view?usp=sharing)
+
+
+|Group variation|subdivision|File |
+|:-------------:|:-------------:|:-------------:|
+| Small | 1 | [1.1](https://drive.google.com/drive/folders/1my6eTbQbIbyWwyYypIsNBOYn1eYnyQmX?usp=sharing) |
+| Small  | 2 | [1.2](https://drive.google.com/drive/folders/1GA2xpoCDLCFEx6KmE-glUhl2My_HH5n0?usp=sharing) |
+| Small  | 3 | [1.3](https://drive.google.com/drive/folders/16Hz8t40XCXVxUusAaVGfNxtUxKScVtuq?usp=sharing) |
+| Small  | 4 | [1.4](https://drive.google.com/drive/folders/1YEPeDC9kbDH12uWEBhAWh4xaa64it94V?usp=sharing) |
+| Medium | 1 | [1.1](https://drive.google.com/drive/folders/1_5gZpr_0Ba_pTRLDBQKipEiPyJktLFXq?usp=sharing) |
+| Medium | 2 | [1.2](https://drive.google.com/drive/folders/1z-rJKzDQK1OGO1blRXZSx-eXU4gyrr5X?usp=sharing) |
+| Medium | 3 | [1.3](https://drive.google.com/drive/folders/10Hyp-1PZ6jzMJZZXtFN5vu0pj80RJ50f?usp=sharing) |
+| Medium | 4 | [1.4](https://drive.google.com/drive/folders/1Vyt3wMMTjgV-JUSQR8h3B9fDVTH4nHhu?usp=sharing) |
+| Large | 1 | [1.1](https://drive.google.com/drive/folders/1cqJKP92dSTD72vzPXcj9vDdDtXGcSu4Z?usp=sharing) |
+| Large | 2 | [1.2](https://drive.google.com/drive/folders/1VXWkr3OiyTV3V51u-Y2KWWh9fdST4Ycg?usp=sharing) |
+| Large | 3 | [1.3](https://drive.google.com/drive/folders/1RWA41gPhyDk4LriYMwtzbhbd4lbFK7Li?usp=sharing) |
+| Large | 4 | [1.4](https://drive.google.com/drive/folders/1D98dqN3yEtjVXAHEovmbN3GsRcRP5JFN?usp=sharing) |
+
+
+
+
 
 Contact information
 
