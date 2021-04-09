@@ -2,13 +2,13 @@
 
 In this repository, you will find the codes, instances and results used in the article:
 
-#### Optimizing Vehicle Scheduling and Routing in a Cross-Docking Center with Multiple Docks. Cota, P. M.; Nogueira, T.H. ; Juan, A.A.; Ravetti, M.G.  Submitted, 2020.
+#### Integrating Vehicle Scheduling and Routing decisions in a Cross-Docking Center with Multiple Docks. Cota, P. M.; Nogueira, T.H. ; Juan, A.A.; Ravetti, M.G.  Submitted, 2021.
 
 ## Algorithms
 
 The programming language used is C++ with the optimization software CPLEX 12.4. 
 
-### Constructive Heuristics (PIFHA and CDHA), and Lagrangian Heuristic (LH) - without uncertainty:
+### Constructive Heuristics (VRCDH and CDVRH), and Prioritization Lagrangian Heuristic (PLH) - without uncertainty:
 
 The Lagrangean heuristic(LH) uses the constructive heuristics PIFHA and CDHA. Thus, to obtain the result of all three proposed heuristics, it is only necessary to execute the MainHF.run, the other two files are called by the main file and must be in the same execution folder.
 
@@ -52,7 +52,7 @@ Results: [TableResults.xlsx](https://drive.google.com/drive/folders/1IODqCf-8atw
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### Framework Robust Dynamic Lagrangian Heuristic (DLH) - under uncertainty:
+### Robust Dynamic Prioritization Lagrangian Heuristic (RDPLH) - under uncertainty:
 
 Incorporate uncertainties into this OVRPCD to use Lagrangian heuristics (LH) to achieve more applicable results to real cross-docking centers. Uncertainties are included in the trucks' arrival time at the CDC and in the travel time to go to the customer. It is only necessary to execute the MainHF-Dinamic.run, the other three files are called by the main file and must be in the same execution folder.
 
