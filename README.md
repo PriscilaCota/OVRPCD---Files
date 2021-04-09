@@ -14,9 +14,9 @@ The Lagrangean heuristic(LH) uses the constructive heuristics PIFHA and CDHA. Th
 
 Download algorithm: [MainHF.run](https://drive.google.com/drive/folders/1Sx6HECJwkWzPvEHHu6Cs20dYMEFGjI7L?usp=sharing) 
 
-Download algorithm CDHA: [MainCDTSPR.sa1](https://drive.google.com/drive/folders/1Sx6HECJwkWzPvEHHu6Cs20dYMEFGjI7L?usp=sharing) 
+Download algorithm CDVRH: [MainCDTSPR.sa1](https://drive.google.com/drive/folders/1Sx6HECJwkWzPvEHHu6Cs20dYMEFGjI7L?usp=sharing) 
 
-Download algorithm PIFHA: [MainCDTSP.sa1](https://drive.google.com/drive/folders/1Sx6HECJwkWzPvEHHu6Cs20dYMEFGjI7L?usp=sharing) 
+Download algorithm VRCDH: [MainCDTSP.sa1](https://drive.google.com/drive/folders/1Sx6HECJwkWzPvEHHu6Cs20dYMEFGjI7L?usp=sharing) 
 
 ### Instances - without uncertainty
 
@@ -45,7 +45,7 @@ Example:[Exemplo.dat](https://drive.google.com/drive/folders/1mv2PGR33RRFrgTU7gM
 
 ### Results for the heuristics
 
-Following we report computational results of each instance in a table with Lower Bound, PIFHA, CDHA, and LH respectively.
+Following we report computational results of each instance in a table with Lower Bound, VRCDH, CDVRH, and PLH respectively.
 
 Results: [TableResults.xlsx](https://drive.google.com/drive/folders/1IODqCf-8atw1c435AIblrGo4kaT7IJOx?usp=sharing) 
 
@@ -54,16 +54,16 @@ Results: [TableResults.xlsx](https://drive.google.com/drive/folders/1IODqCf-8atw
 
 ### Robust Dynamic Prioritization Lagrangian Heuristic (RDPLH) - under uncertainty:
 
-Incorporate uncertainties into this OVRPCD to use Lagrangian heuristics (LH) to achieve more applicable results to real cross-docking centers. Uncertainties are included in the trucks' arrival time at the CDC and in the travel time to go to the customer. It is only necessary to execute the MainHF-Dinamic.run, the other three files are called by the main file and must be in the same execution folder.
+Incorporate uncertainties into this OVRPCD to use Prioritization Lagrangian heuristics (PLH) to achieve more applicable results to real cross-docking centers. Uncertainties are included in the trucks' arrival time at the CDC and in the travel time to go to the customer. It is only necessary to execute the MainHF-Dinamic.run, the other three files are called by the main file and must be in the same execution folder.
 
 
-Download algorithm DLH: [MainHF-Dinamic.run](https://drive.google.com/file/d/1puIzlRnPogVetTnm0uPvwIKMjtjgG4QW/view?usp=sharing) 
+Download algorithm RDPLH: [MainHF-Dinamic.run](https://drive.google.com/file/d/1puIzlRnPogVetTnm0uPvwIKMjtjgG4QW/view?usp=sharing) 
 
-Download algorithm LH: [MainLag-Dinamic.sa1](https://drive.google.com/file/d/1axM4mjDbYj9HIg-4X5T18gP1uu1rMJLu/view?usp=sharing) 
+Download algorithm PLH: [MainLag-Dinamic.sa1](https://drive.google.com/file/d/1axM4mjDbYj9HIg-4X5T18gP1uu1rMJLu/view?usp=sharing) 
 
-Download algorithm CDHA: [MainCDTSPR-Dinamic.sa1](https://drive.google.com/file/d/1n96UqxRndLefWzw-_SLMs_Nk0S-kp5sT/view?usp=sharing) 
+Download algorithm CDVRH: [MainCDTSPR-Dinamic.sa1](https://drive.google.com/file/d/1n96UqxRndLefWzw-_SLMs_Nk0S-kp5sT/view?usp=sharing) 
 
-Download algorithm PIFHA: [MainCDTSP-Dinamic.sa1](https://drive.google.com/file/d/1pniQvNPVg7eRo5hf0bNxnyht3q7Oxga_/view?usp=sharing) 
+Download algorithm VRCDH: [MainCDTSP-Dinamic.sa1](https://drive.google.com/file/d/1pniQvNPVg7eRo5hf0bNxnyht3q7Oxga_/view?usp=sharing) 
 
 
 ### Instances - under uncertainty
