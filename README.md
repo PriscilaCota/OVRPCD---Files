@@ -10,13 +10,27 @@ The programming language used is C++ with the optimization software CPLEX 12.4.
 
 ### Constructive Heuristics (VRCDH and CDVRH), and Prioritization Lagrangian Heuristic (PLH) - without uncertainty:
 
-The Lagrangean heuristic(LH) uses the constructive heuristics PIFHA and CDHA. Thus, to obtain the result of all three proposed heuristics, it is only necessary to execute the MainHF.run, the other two files are called by the main file and must be in the same execution folder.
+The Prioritization Lagrangean heuristic(LH) uses the constructive heuristics PIFHA and CDHA. Thus, to obtain the result of all three proposed heuristics, it is only necessary to execute the MainHF.run, the other two files are called by the main file and must be in the same execution folder.
 
-Download algorithm: [MainHF.run](https://drive.google.com/drive/folders/1Sx6HECJwkWzPvEHHu6Cs20dYMEFGjI7L?usp=sharing) 
+Download algorithm: [MainHF.run](https://drive.google.com/file/d/1Rb4GVvfxosr7DJxUv_7BCwDk8KcjLJ0B/view?usp=sharing)
 
-Download algorithm CDVRH: [MainCDTSPR.sa1](https://drive.google.com/drive/folders/1Sx6HECJwkWzPvEHHu6Cs20dYMEFGjI7L?usp=sharing) 
+Download algorithm CDVRH: [MainCDTSPR.sa1](https://drive.google.com/file/d/10iDOgLOk9-ScdJeJ_6Z-cTsTm3Y3BXXx/view?usp=sharing) 
 
-Download algorithm VRCDH: [MainCDTSP.sa1](https://drive.google.com/drive/folders/1Sx6HECJwkWzPvEHHu6Cs20dYMEFGjI7L?usp=sharing) 
+Download algorithm VRCDH: [MainCDTSP.sa1](https://drive.google.com/file/d/1vK4apL9a-_sq1p1g6hFGcsH96By3luMd/view?usp=sharing) 
+
+### VNS Heuristics (VRCDH and CDVRH), and Prioritization Lagrangian Heuristic (PLH) - without uncertainty:
+
+Download algorithm: [MainVNS_FA.run](https://drive.google.com/file/d/1oJLjd-Pp3gkQqZPOxIhs0tev_qhnP7Jl/view?usp=sharing)
+
+Download file1 used in MainVNS_FA.run: [MainCDTSPHL.sa1](https://drive.google.com/file/d/15DB4CVf1rJp3BlBxNPOvaxAA_jmxE36Z/view?usp=sharing)
+
+Download file2 used in MainVNS_FA.run: [MainCDTSPRHL.sa1](https://drive.google.com/file/d/11pElw9aY5QvvDfK0J-IDpTaonL8YmDIA/view?usp=sharing)
+
+Download algorithm: [MainHC.run](https://drive.google.com/file/d/1SwmGMq10OmZ0Vc1U7UV-USePGlXFvX_j/view?usp=sharing)
+
+Download file1 used in MainHC.run: [MainCDTSP-VNS_F.sa1](https://drive.google.com/file/d/1w_SSx-8Fybb2S8C9p4ZISZ6zE9ZD6ddC/view?usp=sharing) 
+
+Download file1 used in MainHC.run: [MainCDTSP-VNS_F.sa1](https://drive.google.com/file/d/1-0dnp5Bl-HWWpCad1OoHnoWK2ps-pN3x/view?usp=sharing) 
 
 ### Instances - without uncertainty
 
@@ -43,12 +57,6 @@ Example:[Exemplo.dat](https://drive.google.com/drive/folders/1mv2PGR33RRFrgTU7gM
 | 3 | 4 | [3.4](https://drive.google.com/drive/folders/176IkMXlrkYHBqaLShsN-6v7WhcLiO0Q-?usp=sharing) |
 
 
-### Results for the heuristics
-
-Following we report computational results of each instance in a table with Lower Bound, VRCDH, CDVRH, and PLH respectively.
-
-Results: [TableResults.xlsx](https://drive.google.com/drive/folders/1IODqCf-8atw1c435AIblrGo4kaT7IJOx?usp=sharing) 
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -57,13 +65,13 @@ Results: [TableResults.xlsx](https://drive.google.com/drive/folders/1IODqCf-8atw
 Incorporate uncertainties into this OVRPCD to use Prioritization Lagrangian heuristics (PLH) to achieve more applicable results to real cross-docking centers. Uncertainties are included in the trucks' arrival time at the CDC and in the travel time to go to the customer. It is only necessary to execute the MainHF-Dinamic.run, the other three files are called by the main file and must be in the same execution folder.
 
 
-Download algorithm RDPLH: [MainHF-Dinamic.run](https://drive.google.com/file/d/1puIzlRnPogVetTnm0uPvwIKMjtjgG4QW/view?usp=sharing) 
+Download algorithm RDPLH: [MainHF-Dinamic.run](https://drive.google.com/file/d/1IwxNuTj0BNiIRYkCz7qHtOlPw1xs5XbX/view?usp=sharing) 
 
-Download algorithm PLH: [MainLag-Dinamic.sa1](https://drive.google.com/file/d/1axM4mjDbYj9HIg-4X5T18gP1uu1rMJLu/view?usp=sharing) 
+Download algorithm PLH: [MainLag-Dinamic.sa1](https://drive.google.com/file/d/16YMZZgsiTEEIvO6IDEMqFM6EdtS0s2yY/view?usp=sharing) 
 
-Download algorithm CDVRH: [MainCDTSPR-Dinamic.sa1](https://drive.google.com/file/d/1n96UqxRndLefWzw-_SLMs_Nk0S-kp5sT/view?usp=sharing) 
+Download algorithm CDVRH: [MainCDTSPR-Dinamic.sa1](https://drive.google.com/file/d/1fac6SLpiFWXm9acw3OSKeY99vnkrpTwT/view?usp=sharing) 
 
-Download algorithm VRCDH: [MainCDTSP-Dinamic.sa1](https://drive.google.com/file/d/1pniQvNPVg7eRo5hf0bNxnyht3q7Oxga_/view?usp=sharing) 
+Download algorithm VRCDH: [MainCDTSP-Dinamic.sa1](https://drive.google.com/file/d/1dC-24hyAWHMCKxB-1KmxWStHGmsU1Sy3/view?usp=sharing) 
 
 
 ### Instances - under uncertainty
